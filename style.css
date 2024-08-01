@@ -1,0 +1,29 @@
+.container {
+    border-radius: 5px;
+    border: solid rgba(169, 169, 169, 0.008);
+    padding: 0;
+}
+
+.button-group {  
+    display: flex;  
+    justify-content: flex-end;  
+    margin-top: 10px;
+    background-color: rgba(211, 211, 211, 0.667);
+}
+h2 {
+    background-color: rgba(211, 211, 211, 0.667);
+    padding: 0px 5px 10px 5px;
+}
+form {
+    padding: 2px 10px;
+}
+.alert-danger {
+    margin: 20px;
+}
+.button-group button{
+    margin: 10px 5px 10px 10px;
+}
+.icons-group {
+    background-color: darkgray; 
+    
+}
