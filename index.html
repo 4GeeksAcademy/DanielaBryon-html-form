@@ -61,34 +61,44 @@
             </div> 
             <div class="form-row"> 
                 <div class="form-group col-md-6">  
-                   <label>We accept:</label>  
-                   <div class="icons-group col-md-5">  
-                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1"><i class="fa-brands fa-cc-visa"></i></label>
+                   <label>
+                    We accept:
+                   </label>
+                   <div class="icons-group">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-apple-pay"></i></label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2"><i class="fa-brands fa-cc-mastercard"></i></label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-paypal"></i></label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                        <label class="form-check-label" for="inlineCheckbox3"><i class="fa-brands fa-cc-paypal"></i></label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-mastercard"></i></label>
                       </div>
-                    </div> 
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
+                      </div>
+                   </div>  
                 </div> 
                 <div class="form-group col-md-6">
                     <label for="message">Message</label>  
                     <textarea class="form-control" id="message" rows="3" placeholder=""></textarea>
                     <p>Add any notes here</p>
                 </div>
+            </div>
+            <div class="container2">
+                <div class="button-group">
+                    <button type="button" class="btn btn-secondary">Cancel</button>  
+                    <button type="submit" class="btn btn-primary">Send</button> 
+        
+                </div>
             </div>   
+            
         </form>
-        <div class="button-group">
-            <button type="button" class="btn btn-secondary">Cancel</button>  
-            <button type="submit" class="btn btn-primary">Send</button> 
-
-        </div>
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>  
